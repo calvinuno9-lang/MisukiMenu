@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Sushi</title>
+    <style>
+        body {
+            background-color: #111; /* Fundo escuro, fica clean */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            gap: 20px; /* Espaço entre as bandeiras */
+        }
+        .bandeira {
+            width: 100px; /* Tamanho da bandeira */
+            border-radius: 10px;
+            transition: transform 0.2s; /* Efeito bacano ao passar o rato */
+        }
+        .bandeira:hover {
+            transform: scale(1.1); /* Fica um pouco maior ao passar o rato */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bandeira de Inglaterra -->
+    <a href="menu_en.pdf" target="_blank">
+        <img src="bandeira_en.png" alt="Menu in English" class="bandeira">
+    </a>
+
+    <!-- Bandeira de Espanha -->
+    <a href="menu_es.pdf" target="_blank">
+        <img src="bandeira_es.png" alt="Menú Español" class="bandeira">
+    </a>
+
+    <!-- Bandeira da Holanda -->
+    <a href="menu_nl.pdf" target="_blank">
+        <img src="bandeira_nl.png" alt="Menu Nederlands" class="bandeira">
+    </a>
+
+    <!-- Bandeira da França -->
+    <a href="menu_fr.pdf" target="_blank">
+        <img src="bandeira_fr.png" alt="Menu Français" class="bandeira">
+    </a>
+
+</body>
+</html>
